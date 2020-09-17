@@ -4,12 +4,34 @@
 header {
   height: 95px;
 }
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 184px;
+  left: 0px;
+  top: 3998px;
+  background: #000000;
+}
 .about {
   position: absolute;
   width: 38px;
   height: 21px;
   left: 502px;
   top: 38px;
+}
+.additional_menu {
+  position: absolute;
+  width: 236px;
+  height: 20px;
+  left: 0px;
+  top: -2px;
+}
+.apple_store {
+  position: absolute;
+  width: 91px;
+  height: 16px;
+  left: 19px;
+  top: 18px;
 }
 .auto_layout {
   display: flex;
@@ -23,6 +45,8 @@ header {
   position: absolute;
   width: 1600px;
   height: 744px;
+  left: -83px;
+  top: 28px;
 }
 .bg_2 {
   position: absolute;
@@ -31,12 +55,43 @@ header {
   left: 0px;
   top: 744px;
 }
+.bg_3 {
+  position: absolute;
+  width: 1600px;
+  height: 842px;
+  left: 0px;
+  top: 2090px;
+  background-color: #FFFFFF;
+}
 .bg_4 {
   position: absolute;
   width: 1600px;
   height: 504px;
   left: 0px;
   top: 1586px;
+}
+.bg_5 {
+  position: absolute;
+  width: 1600px;
+  height: 598px;
+  left: 0px;
+  top: 2932px;
+
+}
+.bg_6 {
+  position: absolute;
+  width: 1600px;
+  height: 468px;
+  left: 0px;
+  top: 3530px;
+}
+.bg_7 {
+  position: absolute;
+  width: 1600px;
+  height: 468px;
+  left: 0px;
+  top: 0px;
+  background: #F5F6F7;
 }
 .btn_main {
   position: absolute;
@@ -52,6 +107,34 @@ header {
   left: 0px;
   top: 187px;
 }
+.btn_main_3 {
+  position: absolute;
+  width: 180px;
+  height: 46px;
+  left: 0px;
+  top: 138px;
+}
+.btn_market {
+  position: absolute;
+  width: 188px;
+  height: 50px;
+  left: 815px;
+  top: 238px;
+}
+.btn_store {
+  position: absolute;
+  width: 188px;
+  height: 50px;
+  left: 597px;
+  top: 238px;
+}
+.btn_submit {
+  position: absolute;
+  width: 66px;
+  height: 46px;
+  left: 340px;
+  top: 0px;
+}
 .content_block {
   position: absolute;
   width: 407px;
@@ -59,12 +142,49 @@ header {
   left: 268px;
   top: 295px;
 }
+.content_block_2 {
+  position: absolute;
+  width: 407px;
+  height: 184px;
+  left: 815px;
+  top: 319px;
+}
 .content_image_1 {
   position: absolute;
   width: 407px;
   height: 582px;
   left: 923px;
   top: 120px;
+}
+.content_image_2 {
+  position: absolute;
+  width: 407px;
+  height: 582px;
+  left: 269px;
+  top: 120px;
+}
+.content_image_5 {
+  position: absolute;
+  width: 1920px;
+  height: 1281px;
+  left: -160px;
+  top: -615px;
+}
+.copyright {
+  position: absolute;
+  width: 170px;
+  height: 20px;
+  left: 1270px;
+  top: 73px;
+  text-align: center;
+  color: #818181;
+}
+.credits {
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
 }
 .h2_24_bold {
   font-family: Roboto;
@@ -88,6 +208,20 @@ header {
   text-align: center;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+}
+.header_downloader {
+  position: absolute;
+  width: 250px;
+  height: 28px;
+  left: 675px;
+  top: 120px;
+}
+.header_form {
+  position: absolute;
+  width: 380px;
+  height: 28px;
+  left: 13px;
+  top: 0px;
 }
 .header_text {
   font-family: Roboto;
@@ -113,6 +247,13 @@ header {
   left: calc(50% - 90px/2);
   top: calc(50% - 16px/2);
 }
+.google_store {
+  position: absolute;
+  width: 94px;
+  height: 16px;
+  left: 17px;
+  top: 18px;
+}
 .icon {
   position: absolute;
   width: 45px;
@@ -120,6 +261,20 @@ header {
   left: 0px;
   top: 0px;
   background: #C4C4C4;
+}
+.icon_andoid {
+  position: absolute;
+  width: 20px;
+  height: 23px;
+  left: 20px;
+  top: 13px;
+}
+.icon_apple {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  left: 128px;
+  top: 0px;
 }
 .inside_layout {
   flex: none;
@@ -133,6 +288,14 @@ header {
   right: 29.41%;
   top: 0%;
   bottom: 0%;
+}
+.fa_check {
+  position: absolute;
+  width: 19px;
+  height: 16.52px;
+  left: calc(50% - 19px/2 + 0.5px);
+  top: calc(50% - 16.52px/2 - 0px);
+  background: #FFFFFF;
 }
 .facebook_fff {
   position: absolute;
@@ -148,6 +311,34 @@ header {
   left: 1058px;
   top: 38px;
 }
+.form {
+  position: absolute;
+  width: 406px;
+  height: 46px;
+  left: 0px;
+  top: 58px;
+}
+.form_block {
+  position: absolute;
+  width: 406px;
+  height: 104px;
+  left: 597px;
+  top: 217px;
+}
+.form_field {
+  position: absolute;
+  width: 340px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+}
+.form_field_store {
+  position: absolute;
+  width: 128px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+}
 .frame_5 {
   position: absolute;
   width: 298px;
@@ -162,12 +353,26 @@ header {
   left: 127px;
   top: 0px;
 }
-.logo {
+.logo_header {
   position: absolute;
   width: 44px;
   height: 45px;
   left: 778px;
   top: 25px;
+}
+.logo_footer {
+  position: absolute;
+  width: 44px;
+  height: 45px;
+  left: 618px;
+  top: -15px;
+}
+.lorem_ipsum {
+  position: absolute;
+  width: 407px;
+  height: 60px;
+  left: 0px;
+  top: 48px;
 }
 .lorem_ipsum_2 {
   position: absolute;
@@ -186,12 +391,37 @@ header {
   align-items: flex-end;
   text-align: center;
 }
+.lorem_ipsum_6 {
+  position: absolute;
+  width: 483px;
+  height: 40px;
+  left: 559px;
+  top: 168px;
+}
 .mail_fff {
   position: absolute;
   width: 20px;
   height: 20px;
   left: 0px;
   top: 0px;
+}
+.menu_divider_1 {
+  position: absolute;
+  width: 8px;
+  height: 0px;
+  left: 151px;
+  top: 15px;
+  border: 1px solid #4E4E4E;
+  transform: rotate(-90deg);
+}
+.menu_divider_2 {
+  position: absolute;
+  width: 8px;
+  height: 0px;
+  left: 65px;
+  top: 15px;
+  border: 1px solid #4E4E4E;
+  transform: rotate(-90deg);
 }
 .nav_items {
   position: absolute;
@@ -200,8 +430,28 @@ header {
   left: 1252px;
   top: 80px;
 }
-.opacity_08{
+.nav_items_footer {
+  position: absolute;
+  width: 273px;
+  height: 16px;
+  left: 160px;
+  top: 75px;
+}
+.one_five {
+  position: absolute;
+  width: 37px;
+  height: 25px;
+  left: calc(50% - 37px/2);
+  top: calc(50% - 25px/2 - 0.5px);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.opacity_08 {
   opacity: 0.8;
+}
+.opacity_098 {
+  opacity: 0.98;
 }
 .our_community {
   position: absolute;
@@ -209,6 +459,20 @@ header {
   height: 20px;
   left: calc(50% - 160px/2);
   top: 65px;
+}
+.our_teams {
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  left: 171px;
+  top: 0px;
+}
+.privacy {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  left: 85px;
+  top: 0px;
 }
 .projects {
   position: absolute;
@@ -221,6 +485,13 @@ header {
   position: absolute;
   width: 367px;
   height: 57px;
+  left: 0px;
+  top: 0px;
+}
+.rappresent_2 {
+  position: absolute;
+  width: 298px;
+  height: 28px;
   left: 0px;
   top: 0px;
 }
@@ -244,6 +515,34 @@ header {
   height: 244px;
   left: 0px;
   top: 0px;
+}
+.rectangle_4 {
+  position: absolute;
+  width: 66px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.rectangle_5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 0px;
+  top: 10px;
+  border: 2px solid #373737;
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+}
+.rectangle_6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 79px;
+  top: 10px;
+  border: 2px solid #373737;
+  box-sizing: border-box;
+  transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
 }
 .slider_item_1 {
   position: absolute;
@@ -302,7 +601,7 @@ header {
   line-height: 140%;
   text-align: center;
 }
-.text_biggest {
+.text_huge {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
