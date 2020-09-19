@@ -1,5 +1,16 @@
-* {
-  max-width: 1600px;
+button {
+  border: none;
+}
+  button:hover {
+    background-color: #009CC2;
+  }
+input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
 }
 header {
   height: 95px;
@@ -67,7 +78,7 @@ footer {
   position: absolute;
   width: 1600px;
   height: 504px;
-  left: 0px;
+  left: -12px;
   top: 1586px;
 }
 .bg_5 {
@@ -75,8 +86,7 @@ footer {
   width: 1600px;
   height: 598px;
   left: 0px;
-  top: 2932px;
-
+  top: 3031px;
 }
 .bg_6 {
   position: absolute;
@@ -92,6 +102,29 @@ footer {
   left: 0px;
   top: 0px;
   background: #F5F6F7;
+}
+.bg_image {
+  position: absolute;
+  width: 1600px;
+  height: 788px;
+  left: 0px;
+  top: -22px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+}
+.bg_image_5 {
+  position: absolute;
+  overflow: hidden;
+  width: 1600px;
+  height: 598px;
+  left: 0px;
+  top: 0px;
+}
+.bg_image_wrapper {
+  position: absolute;
+  width: 1600px;
+  height: 744px;
+  left: 0px;
+  top: 0px;
 }
 .btn_main {
   position: absolute;
@@ -186,6 +219,13 @@ footer {
   left: 0px;
   top: 0px;
 }
+.dot {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  left: 135px;
+  top: 0px;
+}
 .h2_24_bold {
   font-family: Roboto;
   font-style: normal;
@@ -232,14 +272,6 @@ footer {
   display: flex;
   align-items: center;
 }
-.background-image {
-  background-image: url(assets/bg-image.png);
-  position: absolute;
-  width: 1600px;
-  height: 744px;
-  left: 0px;
-  top: 0px;
-}
 .get_started {
   position: static;
   width: 90px;
@@ -260,14 +292,13 @@ footer {
   height: 45px;
   left: 0px;
   top: 0px;
-  background: #C4C4C4;
 }
 .icon_andoid {
   position: absolute;
-  width: 20px;
-  height: 23px;
-  left: 20px;
-  top: 13px;
+  width: 60px;
+  height: 50px;
+  left: 128px;
+  top: 0px;
 }
 .icon_apple {
   position: absolute;
@@ -295,7 +326,6 @@ footer {
   height: 16.52px;
   left: calc(50% - 19px/2 + 0.5px);
   top: calc(50% - 16.52px/2 - 0px);
-  background: #FFFFFF;
 }
 .facebook_fff {
   position: absolute;
@@ -310,6 +340,13 @@ footer {
   height: 20px;
   left: 1058px;
   top: 38px;
+}
+.five {
+  position: absolute;
+  width: 37px;
+  height: 25px;
+  left: calc(70% - 37px/2);
+  top: calc(50% - 25px/2 - 0.5px);
 }
 .form {
   position: absolute;
@@ -331,6 +368,10 @@ footer {
   height: 46px;
   left: 0px;
   top: 0px;
+  padding: 0;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 0px;
 }
 .form_field_store {
   position: absolute;
@@ -410,7 +451,7 @@ footer {
   width: 8px;
   height: 0px;
   left: 151px;
-  top: 15px;
+  top: 10px;
   border: 1px solid #4E4E4E;
   transform: rotate(-90deg);
 }
@@ -419,7 +460,7 @@ footer {
   width: 8px;
   height: 0px;
   left: 65px;
-  top: 15px;
+  top: 10px;
   border: 1px solid #4E4E4E;
   transform: rotate(-90deg);
 }
@@ -437,15 +478,19 @@ footer {
   left: 160px;
   top: 75px;
 }
+.one {
+  position: absolute;
+  width: 37px;
+  height: 25px;
+  left: calc(30% - 37px/2);
+  top: calc(50% - 25px/2 - 0.5px);
+}
 .one_five {
   position: absolute;
   width: 37px;
   height: 25px;
   left: calc(50% - 37px/2);
   top: calc(50% - 25px/2 - 0.5px);
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
 .opacity_08 {
   opacity: 0.8;
@@ -495,6 +540,14 @@ footer {
   left: 0px;
   top: 0px;
 }
+.rectangle {
+  position: absolute;
+  width: 1600px;
+  height: 504px;
+  left: 0px;
+  top: 0px;
+  background: #F5F6F7;
+}
 .rectangle_1 {
   position: absolute;
   width: 407px;
@@ -508,6 +561,7 @@ footer {
   height: 244px;
   left: 0px;
   top: 0px;
+  background: #C4C4C4;
 }
 .rectangle_3 {
   position: absolute;
@@ -529,20 +583,14 @@ footer {
   width: 8px;
   height: 8px;
   left: 0px;
-  top: 10px;
-  border: 2px solid #373737;
-  box-sizing: border-box;
-  transform: rotate(-45deg);
+  top: 3px;
 }
 .rectangle_6 {
   position: absolute;
   width: 8px;
   height: 8px;
-  left: 79px;
-  top: 10px;
-  border: 2px solid #373737;
-  box-sizing: border-box;
-  transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+  left: 65px;
+  top: 3px;
 }
 .slider_item_1 {
   position: absolute;
@@ -571,6 +619,7 @@ footer {
   height: 244px;
   left: 706px;
   top: 120px;
+  overflow: hidden;
 }
 .socials {
   position: absolute;
