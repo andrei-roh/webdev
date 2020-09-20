@@ -1,10 +1,14 @@
+body {
+  width: 1600px;
+  height: 4182px;
+}
 button {
   border: none;
 }
   button:hover {
     background-color: #009CC2;
   }
-input {
+input::-webkit-input-placeholder {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -56,8 +60,8 @@ footer {
   position: absolute;
   width: 1600px;
   height: 744px;
-  left: -83px;
-  top: 28px;
+  left: 0px;
+  top: 0px;
 }
 .bg_2 {
   position: absolute;
@@ -78,7 +82,7 @@ footer {
   position: absolute;
   width: 1600px;
   height: 504px;
-  left: -12px;
+  left: 0px;
   top: 1586px;
 }
 .bg_5 {
@@ -86,7 +90,7 @@ footer {
   width: 1600px;
   height: 598px;
   left: 0px;
-  top: 3031px;
+  top: 2931px;
 }
 .bg_6 {
   position: absolute;
@@ -106,7 +110,7 @@ footer {
 .bg_image {
   position: absolute;
   width: 1600px;
-  height: 788px;
+  height: 766px;
   left: 0px;
   top: -22px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -345,7 +349,7 @@ footer {
   position: absolute;
   width: 37px;
   height: 25px;
-  left: calc(70% - 37px/2);
+  left: calc(70% - 39px/2);
   top: calc(50% - 25px/2 - 0.5px);
 }
 .form {
@@ -353,7 +357,7 @@ footer {
   width: 406px;
   height: 46px;
   left: 0px;
-  top: 58px;
+  top: 59px;
 }
 .form_block {
   position: absolute;
@@ -482,7 +486,7 @@ footer {
   position: absolute;
   width: 37px;
   height: 25px;
-  left: calc(30% - 37px/2);
+  left: calc(30% - 33px/2);
   top: calc(50% - 25px/2 - 0.5px);
 }
 .one_five {
@@ -500,7 +504,7 @@ footer {
 }
 .our_community {
   position: absolute;
-  width: 160px;
+  width: 165px;
   height: 20px;
   left: calc(50% - 160px/2);
   top: 65px;
