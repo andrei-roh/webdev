@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
   width: 1600px;
   height: 4182px;
@@ -50,8 +57,13 @@ footer {
   top: 18px;
 }
 .auto_layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 15px 47px;
 }
 .background_blue {
@@ -114,6 +126,8 @@ footer {
   height: 744px;
   left: 0px;
   top: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))),;
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 }
 .bg_image_5 {
@@ -237,8 +251,12 @@ footer {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -248,8 +266,12 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 2.4px;
   text-transform: uppercase;
@@ -274,8 +296,12 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 140%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .get_started {
   position: static;
@@ -313,9 +339,15 @@ footer {
   top: 0px;
 }
 .inside_layout {
-  flex: none;
-  order: 0;
-  align-self: center;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin: 0px 0px;
 }
 .insta_fff {
@@ -440,25 +472,29 @@ footer {
   left: 0px;
   top: 77px;
 }
-.lorem_ipsum_2_2 {
-  position: absolute;
-  left: 0px;
-  top: 40px;
-}
+  .lorem_ipsum_2_2 {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+  }
 .lorem_ipsum_4 {
   position: absolute;
   width: 298px;
   height: 80px;
   left: calc(50% - 298px/2);
   top: 94px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: center;
 }
-.lorem_ipsum_4_4 {
-  position: absolute;
-  top: 1.5px;
-}
+  .lorem_ipsum_4_4 {
+    position: absolute;
+    top: 1.5px;
+  }
 .lorem_ipsum_6 {
   position: absolute;
   width: 483px;
@@ -466,10 +502,10 @@ footer {
   left: 565px;
   top: 168px;
 }
-.lorem_ipsum_6_6 {
-  position: absolute;
-  left: 69px;
-}
+  .lorem_ipsum_6_6 {
+    position: absolute;
+    left: 69px;
+  }
 .mail_fff {
   position: absolute;
   width: 20px;
@@ -484,7 +520,9 @@ footer {
   left: 145px;
   top: 10px;
   border: 1px solid #4E4E4E;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .menu_divider_2 {
   position: absolute;
@@ -493,7 +531,9 @@ footer {
   left: 59px;
   top: 10px;
   border: 1px solid #4E4E4E;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .nav_items {
   position: absolute;
@@ -565,54 +605,54 @@ footer {
   top: 0px;
   letter-spacing: 1.3px;
 }
-.rappresent_1_1 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-}
-.rappresent_1_2 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  left: 167px;
-}
-.rappresent_1_3 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  left: 240px;
-}
-.rappresent_1_4 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  left: 303px;
-}
-.rappresent_1_5 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 29px;
-  left: 0px;
-}
-.rappresent_1_6 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 29px;
-  left: 25px;
-}
-.rappresent_1_7 {
-  white-space: nowrap;
-  display: inline-block;
-  position: absolute;
-  top: 29px;
-  left: 117px;
-}
+  .rappresent_1_1 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+  }
+  .rappresent_1_2 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 167px;
+  }
+  .rappresent_1_3 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 240px;
+  }
+  .rappresent_1_4 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 303px;
+  }
+  .rappresent_1_5 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+  }
+  .rappresent_1_6 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    left: 25px;
+  }
+  .rappresent_1_7 {
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    left: 117px;
+  }
 .rappresent_2 {
   position: absolute;
   width: 298px;
@@ -659,6 +699,9 @@ footer {
   top: 0px;
   border-radius: 0px;
 }
+  .rectangle_4:hover {
+    background-color: #009CC2;
+  }
 .rectangle_5 {
   position: absolute;
   width: 8px;
@@ -737,8 +780,12 @@ footer {
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 4.7px;
   text-transform: uppercase;
@@ -759,8 +806,12 @@ footer {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   text-transform: uppercase;
 }
